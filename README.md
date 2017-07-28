@@ -1,3 +1,3 @@
 # jejugram
 
-Cloning Instagram for Nomad Coder
+Cloning Instagram for Nomad Coders 🇰🇷
