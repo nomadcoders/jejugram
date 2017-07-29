@@ -76,7 +76,7 @@
 }
 
 .profile__photo-row .profile__photo {
-  width: 33%;
+  width: 32%;
 }
 
 .profile__photo a img {
@@ -111,4 +111,10 @@
 
 .profile__photo:hover .profile__photo-overlay {
   opacity: 1;
+}
+
+.profile__photo-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
