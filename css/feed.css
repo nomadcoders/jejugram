@@ -67,15 +67,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .photo__add-comment-container textarea {
+  padding: 16px 0;
   border: 0;
   resize: none;
   width: 95%;
-  min-height: 15px;
-  padding: 15px 0;
-  padding-bottom: 0;
+  height: 18px;
   font-size: 14px;
 }
 
