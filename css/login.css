@@ -92,6 +92,14 @@
   padding: 7px;
 }
 
+input[type="submit"] {
+  border: 0;
+  color: white;
+  font-weight: 600;
+  background-color: red;
+  padding: 7px;
+}
+
 .login__box .login__divider {
   margin-top: 20px;
   margin-bottom: 15px;
