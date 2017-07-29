@@ -18,6 +18,9 @@
     height: 200px;
     border:5px dashed black;
     background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .child{
@@ -27,13 +30,16 @@
     border:5px solid red;
   }
 
+.three{
+  align-self: flex-end;
+}
   </style>
 </head>
 <body>
   <div class="father">
     <div class="child"></div>
     <div class="child"></div>
-    <div class="child"></div>
+    <div class="child three"></div>
     <div class="child"></div>
   </div>
 </body>
