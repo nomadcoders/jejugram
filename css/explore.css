@@ -1,0 +1,10 @@
+#explore {
+  display: flex;
+  justify-content: center;
+}
+
+.explore__users {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+}
