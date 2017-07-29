@@ -4,11 +4,6 @@
 }
 
 .explore__users {
-  width: 100%;
-  max-width: 600px;
-  background: white;
-  border: 1px solid rgba(0, 0, 0, .0975);
-  border-radius: 3px;
 }
 
 .explore__users .explore__user {
