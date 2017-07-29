@@ -8,3 +8,9 @@
   max-width: 600px;
   background: white;
 }
+
+.explore__user .explore__content img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
