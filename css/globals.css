@@ -6,3 +6,7 @@ body {
 a {
   text-decoration: none;
 }
+
+main {
+  margin: 60px 0;
+}

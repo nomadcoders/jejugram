@@ -1,6 +1,6 @@
 #login {
   width: 75%;
-  margin: 50px auto;
+  margin: 60px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,6 +90,7 @@
   font-weight: 600;
   background-color: #3897f0;
   padding: 7px;
+  cursor: pointer;
 }
 
 input[type="submit"] {
@@ -142,11 +143,13 @@ input[type="submit"] {
 .login__small-link {
   color: #385185;
 }
-
-/*.fixed {
+/*
+.fixed {
   width: 30px;
   height: 30px;
   background: red;
   position: fixed;
   top: 30px;
+  right: 0;
+  width: 100%;
 }*/
