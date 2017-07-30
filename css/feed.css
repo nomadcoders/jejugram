@@ -1,6 +1,11 @@
 #feed {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  margin-bottom: 60px;
 }
 
 .photo .photo__header {
