@@ -25,6 +25,7 @@
 
 .avatar__container img {
   border-radius: 50%;
+  animation: 6s potato infinite ease-in-out;
 }
 
 .profile__info .profile__title,

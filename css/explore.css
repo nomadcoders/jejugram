@@ -29,7 +29,8 @@
   height: 56px;
   border-radius: 50%;
   margin-right: 15px;
-  animation: .5s horse infinite linear;
+  transform-style: preserve-3d;
+  animation: 6s potato infinite ease-in-out;
 }
 
 @keyframes horse {
@@ -38,6 +39,18 @@
   }
   from {
     transform: rotateY(360deg);
+  }
+}
+
+@keyframes potato {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: none;
   }
 }
 
