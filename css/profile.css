@@ -99,6 +99,7 @@
   align-items: center;
   color: white;
   opacity: 0;
+  transition: opacity .5s ease-in-out;
 }
 
 .profile__photo-overlay .profile__photo-stat {
@@ -118,4 +119,21 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.profile__photo-stat i.fa-heart {
+  transform: scale(40);
+  animation: .5s pump infinite linear;
+}
+
+@keyframes pump {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: none;
+  }
 }
