@@ -57,6 +57,16 @@
 .profile__title i {
   cursor: pointer;
   font-size: 22px;
+  animation: 1s rotate infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 .profile__stats .profile__stat {
