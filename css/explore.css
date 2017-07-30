@@ -29,6 +29,11 @@
   height: 56px;
   border-radius: 50%;
   margin-right: 15px;
+  transition: transform .5s linear;
+}
+
+.explore__user .explore__content img:hover {
+  transform: rotateY(180deg) rotate(1turn);
 }
 
 .explore__info .explore__username {
@@ -42,7 +47,7 @@
 }
 
 .explore__user button {
-  border: 0;
+  border: 1px solid #3897f0;
   border-radius: 3px;
   color: white;
   font-weight: 600;
@@ -50,6 +55,12 @@
   padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.explore__user button:hover {
+  background: white;
+  color: #3897f0;
 }
 
 .explore__user button:focus {
