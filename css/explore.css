@@ -29,11 +29,16 @@
   height: 56px;
   border-radius: 50%;
   margin-right: 15px;
-  transition: transform .5s linear;
+  animation: .5s horse infinite linear;
 }
 
-.explore__user .explore__content img:hover {
-  transform: rotateY(180deg) rotate(1turn);
+@keyframes horse {
+  to {
+    transform: none;
+  }
+  from {
+    transform: rotateY(360deg);
+  }
 }
 
 .explore__info .explore__username {
